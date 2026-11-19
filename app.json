@@ -22,12 +22,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aristoncodes.farmconnect"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "scheme": "shoppig-rn-scheme",
-    "plugins": ["expo-router"]
+    "plugins": ["expo-router"],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "40221eb0-1c5c-4390-874c-dee0e63de09e"
+      }
+    },
+    "owner": "aristoncodes"
   }
 }
